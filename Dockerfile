@@ -11,6 +11,8 @@ RUN apt-get update && apt-get install -y \
     python3 \
     python3-pip \
     build-essential \
+    neofetch \
+    speedtest-cli \
     && apt-get clean
 
 # 安裝 GSocket（不需要 sudo）
